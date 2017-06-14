@@ -1,0 +1,145 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  margin: 0;
+  background-color: black;
+  text-align: center;
+
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+header{
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header img{
+  height: 50px;
+  padding-left: 10px;
+  opacity: 0.9;
+
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+
+}
+  nav span {
+    display: inline-block;
+    padding: 20px 10px;
+  }
+
+a {
+  color: seashell;
+padding-right: 20px;
+
+}
+#Mission{
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  padding-top: 70px;
+}
+#Mission .content{
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
+h2{
+  margin: auto;
+  padding: 10px;
+}
+h4{
+  margin: auto;
+  padding: 10px;
+}
+/* arranging pictures into the flex container, then using flex wrap*/
+#Tea{
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top:70px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.item{
+  padding: 5px;
+}
+.item img{
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+/* location section - background image, flex container to hol the 3 locations in */
+
+#Locations{
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+  margin-top: 70px;
+
+}
+h2{
+  margin:auto;
+  padding: 10px;
+}
+/* setting width of container */
+#Locations .flex-container{
+  margin: auto;
+  width: 1100px;
+}
+.flex-container .locations{
+  padding: 5px;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* style location columns */
+.location{
+  flex-basis: 280px;
+  background-color: black;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h3{
+  margin: 0;
+  padding: 10px;
+}
+#contact{
+  height: 200px;
+}
+h2{
+  margin: 0;
+  padding: 10px;
+}
+h5{
+  display: block;
+}
+footer{
+  text-align: left;
+  padding-left: 10px;
+}
